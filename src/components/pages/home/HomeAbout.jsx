@@ -29,5 +29,4 @@ const HomeAbout = () => {
       </section>
   );
 }
-
 export default HomeAbout

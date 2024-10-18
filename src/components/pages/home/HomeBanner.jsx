@@ -15,7 +15,7 @@ const HomeBanner = () => {
               veniam placeat, sint, sit dolorum minima? Corporis eum
               exercitationem modi mollitia, inventore harum ea!
             </p>
-            <Link to='/' className='btn btn-accent'>
+            <Link to='/' className='btn btn-accent' >
               Explore more
             </Link>
           </div>

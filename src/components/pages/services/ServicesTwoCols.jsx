@@ -4,9 +4,9 @@ const ServicesTwoCols = ({price, title, image,content, isDark}) => {
   return (
     <section className={`py-24 ${isDark ? "bg-black text-white" : ""}`}>
         <div className="container">
-            <div className={`flex items-center  ${isDark ? "flex-row-reverse" : ""} gap-10`}>
+            <div className={`flex items-center  ${isDark ? "md:flex-row-reverse" : ""} gap-10`}>
                 <div className="content  basis-[55%]">
-                    <h1 className='text-accent'>{title}</h1>
+                    <h1 className='text-accent' >{title}</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam aperiam nisi consequuntur totam dolorem molestiae pariatur repellendus delectus porro?</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aperiam rerum eveniet voluptatem saepe veritatis neque, obcaecati tenetur quos laborum ea commodi adipisci, quam dignissimos facilis vitae fuga ex ducimus.</p>
                     <div>
